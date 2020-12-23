@@ -8,7 +8,7 @@ defmodule BrowserLauncher do
 
       iex> BrowserLauncher.open("https://elixir-lang.org/")
       {"", 0}
-      iex> BrowserLauncher.open("file:///Users/kentaro/src/github.com/kentaro/browser_launcher/README.md")
+      iex> BrowserLauncher.open("file:///path/to/your.html")
       {"", 0}
 
   """
