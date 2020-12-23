@@ -2,11 +2,13 @@ defmodule BrowserLauncher do
   @moduledoc File.read!("./README.md")
 
   @doc """
-  Opens URL with the default browser.
+  Opens URL with the default browser. URL can be either remote location or local file path.
 
   ## Examples
 
       iex> BrowserLauncher.open("https://elixir-lang.org/")
+      {"", 0}
+      iex> BrowserLauncher.open("file:///Users/kentaro/src/github.com/kentaro/browser_launcher/README.md")
       {"", 0}
 
   """

@@ -29,7 +29,7 @@ iex> BrowserLauncher.open("https://elixir-lang.org/")
 **Local file path**:
 
 ```
-iex> BrowserLauncher.open("file:///Users/antipop/src/github.com/kentaro/browser_launcher/README.md")
+iex> BrowserLauncher.open("file:///Users/kentaro/src/github.com/kentaro/browser_launcher/README.md")
 {"", 0}
 ```
 
