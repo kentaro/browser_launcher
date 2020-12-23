@@ -1,6 +1,6 @@
 # BrowserLauncher
 
-**TODO: Add description**
+This module provides a function to open URL with the default browser for your OS.
 
 ## Installation
 
@@ -15,7 +15,28 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/browser_launcher](https://hexdocs.pm/browser_launcher).
+## Examples
 
+URL can be either remote location or local file path.
+
+**Remote location**:
+
+```
+iex> BrowserLauncher.open("https://elixir-lang.org/")
+{"", 0}
+```
+
+**Local file path**:
+
+```
+iex> BrowserLauncher.open("file:///Users/antipop/src/github.com/kentaro/browser_launcher/README.md")
+{"", 0}
+```
+
+## Author
+
+[Kentaro Kuribayashi](https://kentarokuribayashi.com/)
+
+## License
+
+MIT
