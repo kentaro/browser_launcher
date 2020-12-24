@@ -1,5 +1,7 @@
 # BrowserLauncher
 
+[![hex.pm version](https://img.shields.io/hexpm/v/browser_launcher.svg)](https://hex.pm/packages/browser_launcher)
+
 This module provides a function to open URL with the default browser for your OS.
 
 ## Installation
