@@ -5,7 +5,7 @@ defmodule BrowserLauncher.MixProject do
     [
       app: :browser_launcher,
       version: "0.1.1",
-      elixir: "~> 1.11",
+      elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       source_url: "https://github.com/kentaro/browser_launcher",
@@ -39,7 +39,7 @@ defmodule BrowserLauncher.MixProject do
   defp package do
     [
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/kentaro/browser_launcher"}
+      links: %{"GitHub" => "https://github.com/kentaro/ggggkjjbrowser_launcher"}
     ]
   end
 
