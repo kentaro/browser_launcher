@@ -4,7 +4,7 @@ defmodule BrowserLauncher.MixProject do
   def project do
     [
       app: :browser_launcher,
-      version: "0.1.2",
+      version: "0.1.3",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -28,7 +28,8 @@ defmodule BrowserLauncher.MixProject do
     [
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
-      {:ex_doc, "~> 0.23", only: :dev, runtime: false},{:mock, "~> 0.3.0", only: :test}
+      {:ex_doc, "~> 0.23", only: :dev, runtime: false},
+      {:mock, "~> 0.3.0", only: :test}
     ]
   end
 
