@@ -39,7 +39,7 @@ defmodule BrowserLauncher.MixProject do
   defp package do
     [
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/kentaro/ggggkjjbrowser_launcher"}
+      links: %{"GitHub" => "https://github.com/kentaro/browser_launcher"}
     ]
   end
 
